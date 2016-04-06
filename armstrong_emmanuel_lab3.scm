@@ -2,13 +2,15 @@
 ; Lab 3 ;
 ; Emmanuel Armstrong & Matthew Rohrlach ;
 
+;#lang scheme;
+
 (define (f list)
 	; (a) ;
 	(if (null? list)
 		; (b) ;
 		'()
 		; (c) ;
-		(cons (1 + (car list)) (f (cdr list)))))
+		(cons (+ 1 (car list)) (f (cdr list)))))
 		
 (define (member? e list)
 	; checks if the list is empty ;
@@ -40,3 +42,13 @@
 		(intersect (cdr list1) list2)))
 			; Otherwise run the function atgain on the rest of list 1 and list 2 ;
 			(else (intersect (cdr list1) list2))))
+
+
+; Lab Question Inputs ;
+;(f '(2 7 8 1 3 9));
+;(member? 'one '(1 2 3 4 5));
+;(member? 'd '(a b c d c b a));
+;(set? '(a b c d c b a));
+;(set? '(it was the best of times, it was the worst of times));
+;(union '(blue eggs and cheese) '(ham and sandwich));
+;(intersect '(blue cheese and cherry) '(cheese and blue eggs));
