@@ -1,0 +1,52 @@
+Concepts of Programming Languages
+Lab 3
+Emmanuel Armstrong & Matthew Rohrlach
+
+
+
+Question 1: 
+	Got the output (278140)
+
+Question 2: 
+	The function adds 1 to the number in the list.
+
+Question 3:
+	The line below (a) checks if the list is null before continuing with the program.  If the list is null there is nothing to be done.
+
+Question 4:
+	The line below (b) creates an empty list that is ready to be added to using the cons command.
+
+Question 5:
+	It constructs a list then pull off the first item and calls the function again building the list until you get to the last element
+	and then it adds one to the number created in the list.
+
+Question 6:
+	Got the output #f
+
+Question 7:
+	Got the output #t
+	
+Question 8:
+	Got the output #f
+
+Question 9:
+	Got the output #f
+
+Question 10:
+	Got the output (blue eggs cheese ham and sandwich)
+	
+Question 11:
+	Got the output (blue cheese and)
+	
+Question 12:
+	Once you figure out the basics it is fairly simple to figure out how to code
+	
+Question 13:
+	Took quite a while just to figure out how to get started with it.  Plus the amount of parentheses can get confusing
+	
+Question 14:
+	I probably spent 4 or 5 hours of actual work while doing this lab
+	
+Question 15:
+	If I am ever in a situation where it would be useful then yes
+	
